@@ -1,0 +1,691 @@
+## EXERCISE 1) readPerson
+
+	=> Person
+
+		Id: 128
+		Name: Lucia
+		Lastname: Mestoli
+		Birthdate: 01/01/1990
+
+		=> Activity:
+
+			Id: 129
+			Name: p10
+			Description: dancing in the theatre
+			Place: Theatre
+			Startdate: 14/02/2001
+			Type: Type1
+			
+
+		=> Activity:
+
+			Id: 130
+			Name: Sing
+			Description: singing everywhere
+			Place: Trento
+			Startdate: 08/11/2015
+			Type: Music
+			
+
+
+
+	=> Person
+
+		Id: 132
+		Name: Lucia
+		Lastname: Mestoli
+		Birthdate: 01/01/1990
+
+		=> Activity:
+
+			Id: 133
+			Name: Dance
+			Description: dancing in the theatre
+			Place: Theatre
+			Startdate: 14/02/2001
+			Type: Type1
+			
+
+		=> Activity:
+
+			Id: 134
+			Name: Sing
+			Description: singing everywhere
+			Place: Trento
+			Startdate: 08/11/2015
+			Type: Music
+			
+
+
+
+	=> Person
+
+		Id: 136
+		Name: Lucia
+		Lastname: Mestoli
+		Birthdate: 01/01/1990
+
+		=> Activity:
+
+			Id: 137
+			Name: Dance
+			Description: dancing in the theatre
+			Place: Theatre
+			Startdate: 14/02/2001
+			Type: Type1
+			
+
+		=> Activity:
+
+			Id: 138
+			Name: Sing
+			Description: singing everywhere
+			Place: Trento
+			Startdate: 08/11/2015
+			Type: Music
+			
+
+
+
+	=> Person
+
+		Id: 140
+		Name: Name1
+		Lastname: Lastname1
+		Birthdate: 01/01/2001
+
+		=> Activity:
+
+			Id: 141
+			Name: Activity1
+			Description: Description1
+			Place: Place1
+			Startdate: 04/05/2005
+			Type: Type1
+			
+
+		=> Activity:
+
+			Id: 142
+			Name: Activity2
+			Description: Description2
+			Place: Place2
+			Startdate: 04/10/2005
+			Type: Type2
+			
+
+
+
+===> people read successfully
+
+=====================================================================
+
+## EXERCISE 2) readPerson(Long id)
+	=> Person
+
+		Id: 128
+		Name: Lucia
+		Lastname: Mestoli
+		Birthdate: 01/01/1990
+
+		=> Activity:
+
+			Id: 129
+			Name: p10
+			Description: dancing in the theatre
+			Place: Theatre
+			Startdate: 14/02/2001
+			Type: Type1
+			
+
+		=> Activity:
+
+			Id: 130
+			Name: Sing
+			Description: singing everywhere
+			Place: Trento
+			Startdate: 08/11/2015
+			Type: Music
+			
+
+===> person read successfully
+
+=====================================================================
+
+## EXERCISE 3) updatePerson(Person p)
+	=> Person
+
+		Id: 128
+		Name: Antonia (modified)
+		Lastname: Mestoli
+		Birthdate: 01/01/1990
+
+		=> Activity:
+
+			Id: 129
+			Name: p10
+			Description: dancing in the theatre
+			Place: Theatre
+			Startdate: 14/02/2001
+			Type: Type1
+			
+
+		=> Activity:
+
+			Id: 130
+			Name: Sing
+			Description: singing everywhere
+			Place: Trento
+			Startdate: 08/11/2015
+			Type: Music
+			
+
+===> modified successfully
+
+=====================================================================
+
+## EXERCISE 4) createPerson(Person p)
+	=> Person
+
+		Id: null
+		Name: Lucia
+		Lastname: Mestoli
+		Birthdate: 01/01/1990
+
+		=> Activity:
+
+			Id: null
+			Name: Dance
+			Description: dancing in the theatre
+			Place: Theatre
+			Startdate: 14/02/2001
+			Type: Type1
+			
+
+		=> Activity:
+
+			Id: null
+			Name: Sing
+			Description: singing everywhere
+			Place: Trento
+			Startdate: 08/11/2015
+			Type: Music
+			
+
+===> created successfully
+
+=====================================================================
+
+## EXERCISE 5) deletePerson(Long id)
+null
+===> deleted successfully
+
+=====================================================================
+
+## EXERCISE 6) readPersonPreferences(Long id, String activity_type)
+	=> Activity:
+
+		Id: 133
+		Name: Dance
+		Description: dancing in the theatre
+		Place: Theatre
+		Startdate: 14/02/2001
+		Type: Type1
+		
+
+===> works
+
+=====================================================================
+
+## EXERCISE 7) readPreferences()
+	=> Activity:
+
+		Id: 7
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 17
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 24
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 28
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 32
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 36
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 40
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 44
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 48
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 52
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 56
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 60
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 64
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 68
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 72
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 76
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 80
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 84
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 88
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 92
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 96
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 100
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 104
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 111
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 115
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 119
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 123
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 127
+		Name: New Preference
+		Description: description of a new preference
+		Place: Trento
+		Startdate: 10/10/2011
+		Type: Type
+		
+
+	=> Activity:
+
+		Id: 131
+		Name: New Preference
+		Description: description of a new preference
+		Place: Trento
+		Startdate: 10/10/2011
+		Type: Type
+		
+
+	=> Activity:
+
+		Id: 134
+		Name: Sing
+		Description: singing everywhere
+		Place: Trento
+		Startdate: 08/11/2015
+		Type: Music
+		
+
+	=> Activity:
+
+		Id: 133
+		Name: Dance
+		Description: dancing in the theatre
+		Place: Theatre
+		Startdate: 14/02/2001
+		Type: Type1
+		
+
+	=> Activity:
+
+		Id: 135
+		Name: New Preference
+		Description: description of a new preference
+		Place: Trento
+		Startdate: 10/10/2011
+		Type: Type
+		
+
+	=> Activity:
+
+		Id: 138
+		Name: Sing
+		Description: singing everywhere
+		Place: Trento
+		Startdate: 08/11/2015
+		Type: Music
+		
+
+	=> Activity:
+
+		Id: 137
+		Name: Dance
+		Description: dancing in the theatre
+		Place: Theatre
+		Startdate: 14/02/2001
+		Type: Type1
+		
+
+	=> Activity:
+
+		Id: 139
+		Name: New Preference
+		Description: description of a new preference
+		Place: Trento
+		Startdate: 10/10/2011
+		Type: Type
+		
+
+	=> Activity:
+
+		Id: 141
+		Name: Activity1
+		Description: Description1
+		Place: Place1
+		Startdate: 04/05/2005
+		Type: Type1
+		
+
+	=> Activity:
+
+		Id: 142
+		Name: Activity2
+		Description: Description2
+		Place: Place2
+		Startdate: 04/10/2005
+		Type: Type2
+		
+
+	=> Activity:
+
+		Id: 143
+		Name: NewPref
+		Description: NewPref_description
+		Place: NewPref_place
+		Startdate: date
+		Type: NewPref_type
+		
+
+	=> Activity:
+
+		Id: 146
+		Name: Sing
+		Description: singing everywhere
+		Place: Trento
+		Startdate: 08/11/2015
+		Type: Music
+		
+
+	=> Activity:
+
+		Id: 145
+		Name: Dance
+		Description: dancing in the theatre
+		Place: Theatre
+		Startdate: 14/02/2001
+		Type: Type1
+		
+
+===> works
+
+=====================================================================
+
+## EXERCISE 8) readPersonPreferences(Long id, Long activity_id)
+	=> Activity:
+
+		Id: 133
+		Name: Dance
+		Description: dancing in the theatre
+		Place: Theatre
+		Startdate: 14/02/2001
+		Type: Type1
+		
+
+===> works
+
+=====================================================================
+
+## EXERCISE 9) savePersonPreferences(Long id, Activity activity)
+	Length: 1
+	=> Activity:
+
+		Id: 147
+		Name: New Preference
+		Description: description of a new preference
+		Place: Trento
+		Startdate: 10/10/2011
+		Type: Type
+		
+
+===> preference created successfully
+
+=====================================================================
+
+## EXERCISE 10) updatePersonPreferences(Long id, Activity activity)
+	=> Activity:
+
+		Id: 133
+		Name: updated name
+		Description: dancing in the theatre
+		Place: Theatre
+		Startdate: 14/02/2001
+		Type: Type1
+		
+
+===> updated successfully
+
+
+
+
