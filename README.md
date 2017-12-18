@@ -5,7 +5,7 @@ Marco Michelotti (marco.michelotti-1@studenti.unitn.it)
 
 ### Code analysis
 
-- **PeopleClient**: the Java class that performs the requests to the server and checks whethere the operations are actually executed
+- **PeopleClient**: the Java class that performs the requests to the server and checks whether the operations are actually executed
 
 
 ### Code tasks
