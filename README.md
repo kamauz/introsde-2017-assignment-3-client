@@ -25,6 +25,6 @@ Go to the src folder of the project and run ```wsimport -keep http://sde3usa.her
 Now go to the main folder of the project and run: ```ant execute.client```  
 
 ### Additional Notes
-A huge problem has been found and resolved when trying to comunicate between client and server. Strange errors about ```multiple library definition``` and ```database access permissions```
+A huge problem has been found and resolved when trying to comunicate between client and server. Some critical errors about ```multiple library definition``` and ```database access permissions```
 appeared and avoid the server to response to the client correctly.
 The solution was to restart multiple times the server where the WAR file was deployed until no errors appeared in Heroku application log.
