@@ -1,6 +1,8 @@
 # introsde 2017 assignment 3 client
 Marco Michelotti (marco.michelotti-1@studenti.unitn.it) 
 
+WARNING: I have commited an update to the project later because of an Heroku problem ("Free app time exausted"). So I have just changed the server where the WAR file is hosted
+
 ## Project
 
 ### Code analysis
