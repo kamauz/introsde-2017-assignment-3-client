@@ -72,7 +72,7 @@ public class PeopleClient{
     public static void main(String[] args) throws Exception {
         //URL url = new URL("http://localhost:6902/people?wsdl");
         //URL url = new URL("http://192.168.1.101:8080/es3/people?wsdl");
-        URL url = new URL("http://sde3usa.herokuapp.com/people?wsdl");
+        URL url = new URL("http://sde3-4.herokuapp.com/people?wsdl");
         
         //1st argument service URI, refer to wsdl document above
         //2nd argument is service name, refer to wsdl document above
